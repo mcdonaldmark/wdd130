@@ -35,6 +35,7 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
     width: 20rem;
     text-align: var(--align-text)
 }
@@ -45,8 +46,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    right: 86rem;
-    bottom: 5rem;
+    left: 5rem;
+    top: 2rem;
 }
 
 main img {
