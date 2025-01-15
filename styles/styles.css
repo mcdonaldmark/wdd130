@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --heading-background-color: darkblue;
     --align-text: center;
@@ -30,18 +36,21 @@ main {
 }
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0,0,0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: var(--align-text)
 }
 aside img {
     width: 200px;
     height: auto;
 }
+
+aside h2 {
+    position: absolute;
+    right: 86rem;
+    bottom: 5rem;
+}
+
 main img {
+    float: right;
     width: 150px;
     height: auto;
 }
@@ -49,4 +58,17 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--align-text)
+}
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0,0,0 / 0.2);
+    padding: 1rem;
+    background-color: lightgrey;
+    color: black;
+}
+
+.indent {
+    margin-left: 15px;
 }
