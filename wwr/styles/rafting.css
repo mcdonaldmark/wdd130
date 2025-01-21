@@ -29,8 +29,21 @@ p {
 }
 .fright {
     float: right;
+    margin-left: 600px;
 }
 article {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    margin-top: 10px;
+}
+.div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.fimage {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
