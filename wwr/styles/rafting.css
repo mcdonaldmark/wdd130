@@ -8,6 +8,8 @@ h1 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     position: absolute;
+    top: 120px;
+    left: 50px;
 }
 h2 {
     background-color: var(--primary-color);
@@ -24,6 +26,7 @@ p {
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
 }
 .fright {
     float: right;
@@ -33,6 +36,8 @@ article {
     color: var(--secondary-color);
     margin-top: 10px;
     position: absolute;
+    bottom: 120px;
+    right: 50px;
 }
 .div {
     display: flex;
