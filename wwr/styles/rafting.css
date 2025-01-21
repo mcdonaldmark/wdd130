@@ -7,6 +7,7 @@
 h1 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    position: absolute;
 }
 h2 {
     background-color: var(--primary-color);
@@ -24,17 +25,14 @@ p {
     width: 100%;
     height: auto;
 }
-.absolute {
-    position: absolute;
-}
 .fright {
     float: right;
-    margin-left: 600px;
 }
 article {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     margin-top: 10px;
+    position: absolute;
 }
 .div {
     display: flex;
