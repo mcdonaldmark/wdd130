@@ -34,22 +34,27 @@ p {
     float: right;
 }
 article {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     margin-top: 10px;
-    padding-left: 300px;
+    padding-left: 20px;
     position: absolute;
-    bottom: 120px;
-    right: 50px;
+    bottom: 290px;
+    right: 30px;
+    font-size: 25px;
 }
 .div {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-
 .fimage {
     display: flex;
     justify-content: center;
     margin-top: 200px;
+}
+.para {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding-right: 50px;
 }
