@@ -10,7 +10,7 @@ h1 {
     position: absolute;
     padding: 25px;
     margin: 25px;
-    top: 825px;
+    top: 875px;
     left: 0px;
 }
 h2 {
@@ -39,7 +39,7 @@ article {
     margin-top: 10px;
     padding-left: 20px;
     position: absolute;
-    bottom: 290px;
+    bottom: 235px;
     right: 30px;
     font-size: 25px;
 }
