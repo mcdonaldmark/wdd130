@@ -10,12 +10,13 @@ h1 {
     position: absolute;
     padding: 25px;
     margin: 25px;
-    top: 875px;
+    top: 850px;
     left: 0px;
 }
 h2 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    text-align: center;
 }
 p {
     background-color: var(--primary-color);
@@ -58,3 +59,113 @@ article {
     color: var(--primary-color);
     padding-right: 50px;
 }
+header {
+	margin-right: 1rem auto;
+	display: grid;
+	grid-template-columns: 550px 1fr 1fr;
+	align-items: right;
+	max-width: 5000px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a {
+    color: black;
+}
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex {
+    flex: 1 1;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1px;
+    padding: -10px;
+    width: 100%;
+    margin: 0 auto;
+}
+figcaption {
+      display:block;
+      width: 100%;
+      text-align:center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+.photos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+  }
+.image {
+      display: block;
+      width: 100%;
+  }
+.image1 {
+    display: block;
+    width: 100%;
+    margin-left: 5px;
+}
+.image2 {
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+}
+.image3 {
+    display: block;
+    width: 100%;
+    margin-left: 15px;
+}
+.image4 {
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+}
+.word{
+      display: block;
+      width: 100%;
+      text-align: center;
+}
+.word2{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: 21px;
+}
+.socialmedia {
+    align-items: right;
+    justify-content: right;
+    margin-top: 35px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 175px;
+    margin-top: 30px;
+  }
