@@ -60,10 +60,9 @@ article {
     padding-right: 50px;
 }
 header {
-	margin-right: 1rem auto;
+	margin-right: 100px auto;
 	display: grid;
 	grid-template-columns: 550px 1fr 1fr;
-	align-items: right;
 	max-width: 5000px;
 }
 nav {
@@ -99,7 +98,7 @@ figure {
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1px;
-    padding: -10px;
+    padding: 0px;
     width: 100%;
     margin: 0 auto;
 }
@@ -156,7 +155,6 @@ figcaption {
     margin-left: 21px;
 }
 .socialmedia {
-    align-items: right;
     justify-content: right;
     margin-top: 35px;
 }
