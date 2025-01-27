@@ -60,7 +60,7 @@ article {
     padding-right: 50px;
 }
 header {
-	margin-right: 100px auto;
+	margin-right: 100px;
 	display: grid;
 	grid-template-columns: 550px 1fr 1fr;
 	max-width: 5000px;
