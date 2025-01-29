@@ -10,8 +10,9 @@ h1 {
     position: absolute;
     padding: 25px;
     margin: 25px;
-    top: 850px;
-    left: 0px;
+    top: 200px;
+    left: 575px;
+    opacity: 0.7;
 }
 h2 {
     background-color: var(--primary-color);
@@ -40,9 +41,10 @@ article {
     margin-top: 10px;
     padding-left: 20px;
     position: absolute;
-    bottom: 235px;
-    right: 30px;
+    bottom: 50px;
+    right: 50px;
     font-size: 25px;
+    opacity: 0.7;
 }
 .div {
     display: flex;
@@ -57,7 +59,7 @@ article {
 .para {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    padding-right: 50px;
+    padding-right: 800px;
 }
 header {
 	margin-right: 100px;
