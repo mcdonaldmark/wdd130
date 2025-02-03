@@ -176,11 +176,14 @@ figcaption {
     padding: 0px;
     background-color: #ffffff;
     text-align: left;
-    width: 180px;
+    width: 400px;
+    padding-left: 210px;
 }
 .head2 {
     padding-top: 50px;
     text-align: left;
+    padding-left: 210px;
+    width: 300px;
 }
 .section2 {
     display: flex;
@@ -189,4 +192,36 @@ figcaption {
     padding: 0px;
     max-width: 1200px;
     margin: 0 auto;
+}
+.image5 {
+    display: block;
+    width: 50%;
+    margin-left: 165px;
+}
+.image6 {
+    display: block;
+    width: 50%;
+    margin-left: 160px;
+}
+.image7 {
+    display: block;
+    width: 50%;
+    margin-left: 185px;
+}
+form {
+    display: grid;
+    width: 650px;
+    margin-left: 1000px;
+    margin-top: -475px;
+    margin-bottom: 150px;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    height: 410px;
+}
+.question {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
