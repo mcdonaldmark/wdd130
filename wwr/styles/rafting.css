@@ -11,7 +11,7 @@ h1 {
     padding: 25px;
     margin: 25px;
     top: 200px;
-    left: 575px;
+    left: 750px;
     opacity: 0.7;
 }
 h2 {
@@ -41,8 +41,8 @@ article {
     margin-top: 10px;
     padding-left: 20px;
     position: absolute;
-    bottom: 50px;
-    right: 50px;
+    bottom: 200px;
+    right: 250px;
     font-size: 25px;
     opacity: 0.7;
 }
@@ -59,7 +59,7 @@ article {
 .para {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    padding-right: 800px;
+    padding-right: 700px;
 }
 header {
 	margin-right: 100px;
@@ -171,4 +171,22 @@ figcaption {
   }
 .head1 {
     margin-left: 30px;
+}
+.flex2 {
+    padding: 0px;
+    background-color: #ffffff;
+    text-align: left;
+    width: 180px;
+}
+.head2 {
+    padding-top: 50px;
+    text-align: left;
+}
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
