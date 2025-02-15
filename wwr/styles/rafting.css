@@ -301,13 +301,13 @@ form {
 }
 .border {
     padding: 1.2em;
-    margin-right: -1.2em;
-    margin-left: -1.2em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
     background-color: #ffffff;
     border: 1px solid #ddd;
 }
 .position {
-    margin-right: 19px;
+    margin-right: 24px;
 }
 .head1 {
     background-color: var(--primary-color);
