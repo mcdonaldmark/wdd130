@@ -316,10 +316,12 @@ form {
 }
 .border2 {
     padding: 1.2em;
-    margin-right: -2.4em;
-    margin-left: -2.4em;
+    margin-right: -0.3em;
+    margin-left: -0.3em;
     background-color: #ffffff;
     border: 1px solid #ddd;
+    margin-bottom: 25px;
+    margin-top: 15px;
 }
 .head3 {
     background-color: var(--primary-color);
