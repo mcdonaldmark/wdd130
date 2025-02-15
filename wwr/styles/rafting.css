@@ -6,7 +6,7 @@
 }
 h1 {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: black;
     position: absolute;
     padding: 25px;
     margin: 25px;
@@ -16,12 +16,12 @@ h1 {
 }
 h2 {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: black;
     text-align: center;
 }
 p {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: black;
 }
 .a {
     text-decoration: none;
@@ -58,13 +58,15 @@ article {
 }
 .para {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: black;
     padding-right: 700px;
+    font-weight: bold;
 }
 .para2 {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: black;
     padding-right: 700px;
+    font-weight: bold;
 }
 header {
 	margin-right: 100px;
@@ -94,6 +96,7 @@ a {
     box-sizing: border-box;
     padding: 20px;
     background-color: #ffffff;
+    color: black;
     border: 1px solid #ddd;
     border-radius: 8px;
     text-align: center;
@@ -173,9 +176,6 @@ figcaption {
     align-items: center;
     margin-left: 175px;
     margin-top: 30px;
-  }
-.head1 {
-    margin-left: 30px;
 }
 .flex2 {
     padding: 0px;
@@ -223,12 +223,12 @@ form {
     border: 3px solid black;
     border-radius: 0.5rem;
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: black;
     height: 410px;
 }
 .question {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: black;
 }
 .section3 {
     display: flex;
@@ -240,6 +240,7 @@ form {
     top: 1000px;
     margin-top: 60px;
     margin-bottom: 60px;
+    color: black;
 }
 .form1 {
     display: grid;
@@ -251,7 +252,7 @@ form {
     border: 3px solid black;
     border-radius: 0.9rem;
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: black;
     height: 210px;
 }
 .float {
@@ -268,11 +269,13 @@ form {
 .paragraph {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold; 
+    color: black;
 }
 .paragraph2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic; 
     margin-top: 75px;
+    color: black;
 }
 .form2 {
     display: grid;
@@ -294,6 +297,7 @@ form {
 }
 .section4 {
     margin-top: 100px;
+    color: black;
 }
 .border {
     padding: 1.2em;
@@ -303,11 +307,12 @@ form {
     border: 1px solid #ddd;
 }
 .position {
-    margin-right: 400px;
+    margin-right: 19px;
 }
 .head1 {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: black;
+    margin-left: 30px;
 }
 .border2 {
     padding: 1.2em;
@@ -318,7 +323,7 @@ form {
 }
 .head3 {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: black;
     margin-right: 100px;
 }
 .section5 {
@@ -335,7 +340,7 @@ table {
     margin-top: 20px;
     border-spacing: 20px;
     margin-left: 285px;
-    color: var(--secondary-color);
+    color: black;
     text-align: left;
   }
   .head4 {
@@ -356,4 +361,13 @@ table {
     float: left;
     margin-right: 30px;
     margin-top: -15px;
+}
+.flex3 {
+    flex: 1 1;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
